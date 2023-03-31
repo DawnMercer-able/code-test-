@@ -1,0 +1,56 @@
+<html>
+<head>
+    <style>
+        /* 设置网页的背景颜色和字体 */
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+        }
+
+        /* 设置表单的样式 */
+        form {
+            width: 300px;
+            margin: 100px auto;
+            padding: 20px;
+            border: 1px solid black;
+            background-color: white;
+        }
+
+        /* 设置表单中的标签和输入框的样式 */
+        label, input {
+            display: block;
+            margin: 10px 0;
+        }
+
+        /* 设置输入框的宽度和边框 */
+        input {
+            width: 280px;
+            border: 1px solid gray;
+        }
+
+        /* 设置登陆按钮的样式 */
+        button {
+            width: 100px;
+            margin: 10px auto;
+            display: block;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- 创建一个表单，让用户输入用户名和密码 -->
+    <form>
+        <label for="username">用户名</label>
+        <input type="text" id="username" name="username" placeholder="请输入用户名">
+
+        <label for="password">密码</label>
+        <input type="password" id="password" name="password" placeholder="请输入密码">
+
+        <!-- 创建一个登陆按钮，点击后提交表单 -->
+        <button type="submit">登陆</button>
+    </form>
+</body>
+</html>
